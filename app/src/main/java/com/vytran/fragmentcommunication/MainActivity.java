@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity implements FragmentA.Fragmen
         getSupportFragmentManager().beginTransaction().replace(R.id.container_a, fragmentA)
                 .replace(R.id.container_b, fragmentB)
                 .commit();
+
+        System.out.println("Test for branch 1");
+        System.out.println("Test 3");
     }
 
     @Override
