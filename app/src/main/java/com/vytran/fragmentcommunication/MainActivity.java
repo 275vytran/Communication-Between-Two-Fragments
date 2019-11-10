@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity implements FragmentA.Fragmen
 
         System.out.println("Test for branch 1");
         System.out.println("Test 3");
+        System.out.println("Test for branch 2");
+
+        
     }
 
     @Override
