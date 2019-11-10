@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements FragmentA.Fragmen
                 .commit();
 
         System.out.println("Test for branch 1");
+        System.out.println("Test for branch 2");
     }
 
     @Override
